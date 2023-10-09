@@ -1,4 +1,4 @@
-package src.main.java.com.daanan.geometrysrawing.model;
+package src.main.java.com.daanan.geometrydrawing.model;
 
 public abstract class Shape {
 

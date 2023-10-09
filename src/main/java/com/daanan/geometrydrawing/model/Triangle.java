@@ -1,4 +1,4 @@
-package src.main.java.com.daanan.geometrysrawing.model;
+package src.main.java.com.daanan.geometrydrawing.model;
 
 public class Triangle extends Shape {
     private double base;
@@ -6,6 +6,14 @@ public class Triangle extends Shape {
     private double sideA;
     private double sideB;
     private double sideC;
+
+    public Triangle(double base, double height, double sideA, double sideB, double sideC) {
+        this.base = base;
+        this.height = height;
+        this.sideA = sideA;
+        this.sideB = sideB;
+        this.sideC = sideC;
+    }
 
     @Override
     public void draw() {
